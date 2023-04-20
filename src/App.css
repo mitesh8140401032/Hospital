@@ -1,0 +1,204 @@
+header.header {
+  width: 100%;
+  height: 100px;
+  background-color: #61dafb;
+}
+
+
+.main {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(image/main.jpeg);
+  width: 100%;
+  height: 85vh;
+  background-position: top center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+
+h1.h1 {
+  color: #e8d3b9;
+  font-size: 100px;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.abc {
+  padding: 60px 0px;
+
+}
+
+.a {
+  font-size: 1.5rem;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.b {
+  font-size: 1rem;
+}
+
+.abc2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #61dafb;
+  padding: 20px 0px;
+}
+
+.btn1 {
+  padding: 10px 15px;
+  background-color: white;
+  border-radius: 30px;
+  letter-spacing: 3px;
+  color: #61dafb;
+  border-width: 0;
+  font-weight: bold;
+  transition: 1.1s;
+  border-width: 0px;
+}
+.btn1:hover{
+  
+  box-shadow: rgba(79, 79, 121, 0.25) 0px 2px 5px -1px, rgba(44, 41, 41, 0.3) 0px 1px 3px -1px;
+}
+
+.btn2 {
+  background-color: #61dafb;
+  color: white;
+  margin: 20px 0px;
+  border-width: 0px;
+}
+.btn2:hover{
+  box-shadow: rgba(79, 79, 121, 0.25) 0px 2px 5px -1px, rgba(44, 41, 41, 0.3) 0px 1px 3px -1px;
+}
+.c {
+  font-family: 'Oswald', sans-serif;
+}
+
+.d1 {
+  width: 100%;
+  height: 700px;
+  object-fit: cover
+}
+
+.img3 {
+  width: 100%;
+  height: 548PX;
+  object-fit: cover
+}
+
+.round {
+
+  height: 200px;
+
+  object-fit: cover
+}
+
+.imgsilder {
+  width: 100px;
+  height: 100px;
+  object-fit: cover
+}
+
+.as {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.xyz {
+  background-color: #61dafb;
+
+}
+
+.round2 {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.max {
+  max-width: 750px;
+}
+
+.ice {
+  background-image: url(image/pos.jpg);
+  background-attachment: fixed;
+  width: 100%;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.Akbari {
+  width: 100%;
+  height: 30vh;
+  color: #ffffff;
+  background-color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+@media (max-width: 920px) {
+  h1.h1 {
+
+    text-align: center;
+  }
+
+  .abc {
+    text-align: center;
+  }
+
+  .d1 {
+
+    height: 600px;
+  }
+}
+
+@media (max-width: 576px) {
+  h1.h1 {
+    font-size: 70px;
+    text-align: center;
+  }
+
+  .abc {
+    text-align: center;
+  }
+
+  .abc2 {
+    padding: 20px 0px;
+  }
+.max {
+  margin: 0px 20px;
+}
+  .d1 {
+
+    height: 500px;
+  }
+}
+
+@media (max-width: 450px) {
+  h1.h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .abc2 {
+    padding: 30px 0px;
+  }
+  .max{
+    text-align: center;
+  }
+
+  .d1 {
+
+    height: 400px;
+  }
+}
